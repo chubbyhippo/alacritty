@@ -5,5 +5,5 @@
 ```
 ## win
 ```
-if(!(Test-Path -Path "$env:USERPROFILE\AppData\Local\alacritty\")){New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\AppData\Local\alacritty\"}; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/chubbyhippo/alacritty/main/alacritty.toml" -OutFile "$env:USERPROFILE\AppData\Local\alacritty\alacritty.toml"
+if(!(Test-Path -Path "$env:appdata\alacritty\")){New-Item -ItemType Directory -Force -Path "$env:appdata\alacritty\"}; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/chubbyhippo/alacritty/main/alacritty.toml" -OutFile "$env:appdata\alacritty\alacritty.toml"
 ```
