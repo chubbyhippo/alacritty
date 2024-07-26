@@ -2,3 +2,7 @@
 normal.family = "JetBrainsMono Nerd Font"
 normal.style = "Regular"
 size = 13.0
+[shell]
+[shell]
+program = "C:/tools/msys64/msys2_shell.cmd"
+args = ["-defterm", "-here", "-use-full-path", "-no-start", "-mingw64"]
